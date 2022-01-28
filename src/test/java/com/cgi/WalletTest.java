@@ -156,6 +156,7 @@ public class WalletTest {
         emptyWallet.withdrawal(withdrawal);
         assertThat(emptyWallet.getBalance()).isEqualTo(balance);
     }
+    
 
 
 
